@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Bootstrap案例-输入框组</title>
+</head>
+<body>
+	<div class="container">
+
+		<h1>输入框组</h1>
+		<hr>
+
+		<h3>基本的输入框组</h3>
+		<div style="padding:100px 100px 10px;">
+			<form class="bs-example bs-example-form" role="form">
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input class="form-control" type="text" placeholder="twitterhandle">
+				</div><!--twitter前缀-->
+
+				<br>
+				<div class="input-group" role="form">
+					<input class="form-control" type="text">
+					<span class="input-group-addon">.00</span>
+				</div><!--后缀-->
+
+				<br>
+				<div class="input-group">
+					<span class="input-group-addon">$</span>
+					<input class="form-control" type="text">
+					<span class="input-group-addon">.00</span>
+				</div><!--前、后缀-->
+			</form>
+		</div><!--基本的输入框组-->
+
+		<hr>
+		<h3>输入框组的大小</h3>
+		<div style="padding:100px 100px 10px;">
+			<form class="bs-example bs-example-form" role="form">
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon">@</span>
+					<input class="form-control" type="text" placeholder="twitterhandle">
+				</div>
+
+				<br>
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input class="form-control" type="text" placeholder="twitterholder">
+				</div>
+
+				<br>
+				<div class="input-group input-group-sm">
+					<span class="input-group-addon">@</span>
+					<input class="form-control" type="text" placeholder="twitterholder">
+				</div>
+			</form>
+		</div><!--输入框组的大小-->
+
+		
+	</div>
+
+
+	<script src="../js/jquery-2.1.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Bootstrap案例-字体图标和下拉菜单</title>
+
+	<style>
+    body {
+    padding-top: 50px;
+    padding-left: 50px;
+    }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<h1>Glyphicons的使用</h1>
+		<hr>
+		<h3>用法</h3>
+		<p>
+			<button class="btn btn-default btn-lg" type="button">
+				<span class="glyphicon glyphicon-sort-by-attributes"></span>
+			</button>
+
+			<button class="btn btn-default btn-lg" type="button">
+				<span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+			</button>
+
+			<button class="btn btn-default btn-lg" type="button">
+				<span class="glyphicon glyphicon-sort-by-order"></span>
+			</button>
+
+			<button class="btn btn-default btn-lg" type="button">
+				<span class="glyphicon glyphicon-sort-by-order-alt"></span>
+			</button>
+		</p>
+		<p>
+			<button class="btn btn-default btn-lg" type="button">
+				<span class="glyphicon glyphicon-user"></span>
+			</button>
+
+			<button class="btn btn-default btn-sm" type="button">
+				<span class="glyphicon glyphicon-user"></span>
+			</button>
+
+			<button class="btn btn-default btn-xs" type="button">
+				<span class="glyphicon glyphicon-user"></span>
+			</button>
+		</p>
+
+		<hr>
+		<h3>带有导航栏的字体图标 见导航栏<span class="glyphicon glyphicon-hand-up"></span></h3>
+		<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Project name</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart"></span> Shop</a></li>
+						<li><a href="#support"><span class="glyphicon glyphicon-headphones"></span> Support</a></li>
+					</ul>
+				</div><!--.nav-collapse-->
+			</div><!--container-->
+		</div>
+
+		<hr>
+		<h3>定制字体图标</h3>
+		<button type="button" class="btn btn-primary btn-lg">
+			<span class="glyphicon glyphicon-user"></span> User
+		</button>
+		<p class="text-warning">通过增加或减少图标的字体尺寸，您可以让图标看起来更大或更小</p>
+		<button type="button" class="btn btn-primary btn-lg" style="font-size:60px;">
+			<span class="glyphicon glyphicon-user"></span> User
+		</button>
+		<p class="text-warning">定制字体颜色</p>
+		<button class="btn btn-primary btn-lg" style="color:rgb(212,106,64);">
+			<span class="glyphicon glyphicon-user"></span> User
+		</button>
+		<p class="text-warning">应用文本阴影</p>
+		<button class="btn btn-primary btn-lg" style="text-shadow:black 5px 3px 3px;">
+			<span class="glyphicon glyphicon-user"></span> User
+		</button><!--定制字体的图标-->
+
+		<hr>
+		<h1>下拉菜单 带标题</h1>
+		<div class="dropdown">
+			<button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				主题
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li class="dropdown-header" role="presentation">下拉菜单标题</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">Java</a>
+				</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">数据挖掘</a>
+				</li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabindex="-1">数据通信/网络</a>
+				</li>
+				<li class="divider" role="presentation"></li>
+				<li role="presentation">
+					<a href="#" role="menuitem" tabimndex="-1">分离的链接</a>
+				</li>
+			</ul>
+		</div><!--下拉菜单-->
+	</div>
+
+	<script src="../js/jquery-2.1.3.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+</body>
+</html>
